@@ -1,0 +1,160 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+  max-height: fit-content;
+}
+
+.navbar-review {
+  width: 300px;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  margin-right: -300px;
+  background-color: #fff;
+  transition: 0.4s;
+  z-index: 1;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-review .comment-heading {
+  border-bottom: 1px solid #E5E5E5;
+  padding-bottom: 16px;
+}
+
+.navbar-review .comment-heading span {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  padding: 8px 0 0 0;
+  color: #000;
+}
+
+.navbar-review .comment-heading .btn-close {
+  padding: 5px 0 0 0;
+}
+
+.navbar-review .comment-heading .btn-close img {
+  padding: 0;
+}
+
+.navbar-review .comment-section h6 {
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+}
+
+.navbar-review .comment-section textarea {
+  height: 125px;
+  max-height: 125px;
+  min-height: 40px;
+}
+
+.navbar-review .comment-section .reply {
+  height: 56px;
+}
+
+.navbar-review .comment-display .display-heading h6 {
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+}
+
+.navbar-review .comment-display .display-heading .comment-info {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #000;
+}
+
+.navbar-review .comment-display .comment-list {
+  background-color: transparent;
+  height: 240px;
+  overflow: hidden;
+  overflow-y: scroll;
+  padding-right: 10px;
+}
+
+
+.navbar-review .comment-display .comment-list img {
+  display: inline;
+  border-radius: 50%;
+  margin-top: -15px;
+}
+
+.navbar-review .comment-display .comment-list .comment-user {
+  display: inline-block;
+}
+
+.navbar-review .comment-display .comment-list .comment-item h6 {
+  display: inline;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #000;
+}
+
+.navbar-review .comment-display .comment-list .comment-item span {
+  display: block;
+  font-family: "Poppins", sans-serif;
+  font-size: 9px;
+  font-weight: 500;
+}
+
+.navbar-review .comment-display .comment-list .comment-item p {
+  display: block;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  color: #000;
+  margin: 0 0 0 0;
+}
+
+.navbar-review .comment-display .comment-list .comment-item a {
+  display: block;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+
+.my-container {
+  transition: 0.4s;
+}
+
+.active-nav {
+  margin-right: 0;
+}
+
+.active-cont {
+  margin-right: 250px;
+}
+
+.reply-form-section {
+  position: absolute;
+  bottom: -120px;
+  right: 18px;
+  transition: 0.4s;
+  margin-right: 0;
+}
+
+/* .reply-form-section textarea {
+  width: 252px;
+  height: 40px;
+} */
+
+.reply-form-section .submit-reply-button {
+  width: 252px;
+}
+
+.active-form {
+  position: absolute;
+  bottom: 0px;
+}
+
+.modal-backdrop {
+  /* display: none; */
+  z-index: 1;
+}

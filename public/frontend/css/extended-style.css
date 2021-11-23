@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap");
+.navbar-nav .brand {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+  color: #5C6CDC;
+}
+
+@media (max-width: 576px) {
+  .navbar-nav .brand {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-nav .brand {
+    display: block;
+  }
+}
+
+.navbar-nav .brand img {
+  margin-right: 5px;
+}
+
+.navbar-nav .brand-mobile {
+  display: none;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+  color: #5C6CDC;
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .navbar-nav .brand-mobile {
+    display: block;
+  }
+}
+
+.navbar-nav .nav-item {
+  padding-left: 0px;
+}
+
+@media (max-width: 576px) {
+  .navbar-nav .nav-item {
+    padding: 0;
+  }
+}
+
+.navbar-nav .nav-item .nav-link {
+  padding: 10px 16px;
+}
+
+.navbar-nav .nav-item .nav-link span {
+  font-size: 12px;
+  font-family: "Mulish", sans-serif;
+  color: #676B84;
+}
+
+@media (max-width: 576px) {
+  .navbar-nav .nav-item .nav-link span {
+    margin: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-nav .nav-item .nav-link span {
+    margin: 0;
+  }
+}
+
+.navbar-nav .nav-item .nav-link span::after {
+  color: #1F253A;
+}
+
+.navbar-nav .nav-item .nav-link[data-toggle=collapse]::after {
+  color: #1F253A;
+}
+
+.navbar-nav .nav-item span {
+  color: #1F253A;
+  margin-left: 0px;
+}
+
+.navbar-nav .nav-item .sidebar-heading {
+  padding-left: 40px;
+}
+
+.navbar-nav .sidebar-heading {
+  color: #1F253A;
+}
+
+.navbar-nav.bg-aliceblue {
+  background-color: #F7FAFF;
+}
+
+.main-content h1 {
+  font-family: "Mulish", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: #4D4F5C;
+}
+
+.main-content .summary-row .card .card-body .text-xs {
+  font-size: 16px;
+}
+
+.main-content .summary-row .card:hover {
+  background-color: #1963FA;
+}
+
+.main-content .chart-card h3 {
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #4D4F5C;
+}
+
+.main-content .chart-card .btn {
+  font-size: 14px;
+}
+
+.bg-aliceblue {
+  background-color: #F7FAFF;
+}
+
+.bg-brightwithe {
+  background-color: #fff;
+}
+
+.bg-blue {
+  background-color: #3B76EF;
+}
+
+.btn-blue {
+  background-color: #3B76EF;
+}
+
+.bg-lightblue {
+  background-color: #63C7FF;
+}
+
+.bg-purple {
+  background-color: #A66DD4;
+}
+
+.bg-green {
+  background-color: #6DD4B1;
+}
+
+.heading-1 {
+  font-family: "Mulish";
+  font-size: 20px;
+  font-weight: 700;
+  color: #4D4F5C;
+}
+
+.heading-2 {
+  font-family: "Mulish";
+  font-size: 16px;
+  font-weight: 700;
+  color: #3B76EF;
+}
+
+#myChart {
+  height: 100%;
+  width: 100%;
+  min-height: 150px;
+}
+
+#myChart1 {
+  height: 100%;
+  width: 100%;
+  min-height: 150px;
+}
+
+.zc-ref {
+  display: none;
+}
+
+.keuangan-input .card-body form .form-heading {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 33px;
+  color: #424874;
+}
+
+.keuangan-input .card-body form .custom-select {
+  padding: 0 10px;
+  max-height: 32px;
+  background-color: #EDEDF1;
+  border-radius: 30px;
+  border: none;
+}
+
+.keuangan-input .card-body form input.casual-input {
+  padding: 0 10px;
+  max-height: 32px;
+  background-color: #EDEDF1;
+  border-radius: 30px;
+  border: none;
+}
+
+.keuangan-input .card-body form input.file-input {
+  background-color: #EDEDF1;
+  max-height: 32px;
+  border-radius: 30px;
+  border: none;
+}
+
+.keuangan-input .card-body form button {
+  border-radius: 30px;
+  max-height: 32px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=extended-style.css.map */

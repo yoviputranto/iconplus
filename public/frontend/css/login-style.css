@@ -1,0 +1,9 @@
+.bg-login-img {
+  background: url(../img/login-office.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-color {
+  background-color: #fff;
+}

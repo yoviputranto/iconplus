@@ -1,0 +1,96 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+.cur:before {
+  content: "Rp.";
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+table {
+  width: 100%;
+}
+
+table th {
+  text-align: left;
+}
+
+table th, table td {
+  padding: .4em;
+}
+
+table.fold-table > tbody > tr.view td, table.fold-table > tbody > tr.view th {
+  cursor: pointer;
+}
+
+table.fold-table > tbody > tr.view td:first-child,
+table.fold-table > tbody > tr.view th:first-child {
+  position: relative;
+  padding-left: 20px;
+}
+
+table.fold-table > tbody > tr.view td:first-child:before,
+table.fold-table > tbody > tr.view th:first-child:before {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  width: 9px;
+  height: 16px;
+  margin-top: -8px;
+  font: 16px fontawesome;
+  color: #000;
+  content: "\f0d7";
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+table.fold-table > tbody > tr.view:hover {
+  background: transparent;
+}
+
+table.fold-table > tbody > tr > td.viewdata:hover {
+  background: transparent;
+}
+
+table.fold-table > tbody > tr.view.open {
+  background: #0D6EFD;
+  color: white;
+  transition: 0.4s;
+}
+
+table.fold-table > tbody > tr.view.open > td > button {
+  background: #fff;
+  color: #000;
+}
+
+table.fold-table > tbody > tr.view.open td:first-child:before, table.fold-table > tbody > tr.view.open th:first-child:before {
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+  color: #fff;
+}
+
+table.fold-table > tbody > tr.fold {
+  display: none;
+}
+
+table.fold-table > tbody > tr.fold.open {
+  display: table-row;
+}
+
+.fold-content {
+  padding: .5em;
+}
+
+.fold-content h3 {
+  margin-top: 0;
+}
+
+.fold-content > table {
+  border: 2px solid #ccc;
+}
+/*# sourceMappingURL=main.css.map */
