@@ -20,38 +20,38 @@
                             <tr>
                                 <th>No</th>
                                 <th>ID Tugas</th>
+                                <th>Divisi</th>
+                                <th>Nama Program</th>
                                 <th>No Surat</th>
                                 <th>Perihal</th>
                                 <th>Tgl Surat</th>
-                                <th>Nama Pekerjaan</th>
+
                                 <th>Pemberi Kerja</th>
                                 <th>Kategori</th>
-                                <th>PIC</th>
+
                                 <th>Target Selesai</th>
                                 <th>Dokumen</th>
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td class="align-middle">1</td>
-                                <td class="align-middle">P001</td>
-                                <td class="align-middle">SA2134</td>
-                                <td class="align-middle">-</td>
-                                <td class="align-middle">2021/10/20</td>
-                                <td class="align-middle">Instalasi Jaringan</td>
-                                <td class="align-middle">PIN</td>
-                                <td class="align-middle">PS</td>
-                                <td class="align-middle">VP Backbone</td>
-                                <td class="align-middle">2021/10/20</td>
-                                <td class="align-middle">-</td>
-                                <!-- <td class="align-middle">
-                              <div class="progress">
-                                <div class="progress-done" data-done="34" time-left="10">
-                                  34%
-                                </div>
-                              </div>
-                            </td> -->
-                            </tr>
+                            <?php $no = 1; ?>
+                            @foreach ($programs as $program)
+                                <tr>
+                                    <td class="align-middle">{{ $no++ }}</td>
+                                    <td class="align-middle">{{ $program->id }}</td>
+                                    <td class="align-middle">{{ $program->divisi }}</td>
+                                    <td class="align-middle">{{ $program->nama_program }}</td>
+                                    <td class="align-middle">{{ $program->no_surat }}</td>
+                                    <td class="align-middle">{{ $program->perihal }}</td>
+                                    <td class="align-middle">{{ $program->tgl_surat }}</td>
+                                    <td class="align-middle">{{ $program->pemberi_kerja }}</td>
+                                    <td class="align-middle">{{ $program->kategori }}</td>
+                                    <td class="align-middle">{{ $program->target_selesai }}</td>
+                                    <td class="align-middle">{{ $program->dokumen }}</td>
+
+                                </tr>
+                            @endforeach
+
                         </tbody>
                     </table>
                 </div>

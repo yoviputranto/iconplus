@@ -31,14 +31,24 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td class="align-middle">1</td>
-                                <td class="align-middle">Penginstlan Aplikasi</td>
-                                <td class="align-middle">Laporan Keuangan Penginstalan</td>
-                                <td class="align-middle">2021-11-17</td>
-                                <td class="align-middle">September - November</td>
-                                <td><button type="button" class="btn btn-success text-white">Unduh</button></td>
-                            </tr>
+                            <?php $no = 1; ?>
+                            @foreach ($keuangans as $keuangan)
+                                <tr>
+                                    <td class="align-middle">{{ $no++ }}</td>
+                                    <td class="align-middle">{{ $keuangan->proyek->nama_proyek }}</td>
+                                    <td class="align-middle">{{ $keuangan->judul }}</td>
+                                    <td class="align-middle">{{ $keuangan->created_at }}</td>
+                                    <td class="align-middle">{{ $keuangan->periode_awal }} -
+                                        {{ $keuangan->periode_akhir }}</td>
+                                    <td><a href="{{ Storage::url($keuangan->dokumen) }}"
+                                            download="{{ Str::after($keuangan->dokumen, 'assets/laporan/') }}"
+                                            target="_blank">
+                                            <button type="button" class="btn btn-success text-white">Unduh</button>
+                                        </a></td>
+                                    {{-- @dd(Storage::url($keuangan->dokumen)) --}}
+                                </tr>
+                            @endforeach
+
                         </tbody>
                     </table>
                 </div>

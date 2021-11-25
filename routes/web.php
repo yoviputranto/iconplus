@@ -24,7 +24,7 @@ use Illuminate\Support\Facades\Auth;
 
 Auth::routes();
 
-Route::middleware('web')->group(function () {
+Route::middleware('auth')->group(function () {
     Route::get('/', [DashboardController::class,'index'])->name('dashboard');
 
     Route::get('/program', [ProgramController::class,'index'])->name('program');
@@ -36,6 +36,8 @@ Route::middleware('web')->group(function () {
     Route::get('/keuangan', [KeuanganController::class,'index'])->name('keuangan');
 
     Route::get('/keuangan/tambah', [KeuanganController::class,'create'])->name('keuangan.create');
+
+    Route::post('/keuangan', [KeuanganController::class,'store'])->name('keuangan.store');
 });
 
 

@@ -91,71 +91,71 @@
                         </div>
                     </div>
                     <!-- <div class="comment-item">
-                  <img class="img-fluid mr-2 mb-2" src="{{ asset('frontend') }}/img/profile-1.jpeg" alt="profile" width="24px">
-                  <div class="comment-user">
-                    <h6>Aldo Bramantio
-                      <span class="d-inline-block" style="margin-left: 55px;">
-                        <div class="dropdown">
-                          <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                          </a>
-                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <li><a class="dropdown-item disabled" href="#">Delete</a></li>
-                            <li><a class="dropdown-item" href="#">Report</a></li>
-                          </ul>
-                        </div>
-                      </span>
-                    </h6>
-                    <span>15:30 | June 30</span>
-                  </div>
-                  <p>Dek, abang pulang</p>
-                  <div class="action-button d-flex">
-                    <a class="ml-auto" id="reply-btn" href="#">reply</a>
-                  </div>
-                </div>
-                <div class="comment-item">
-                  <img class="img-fluid mr-2 mb-2" src="{{ asset('frontend') }}/img/profile-1.jpeg" alt="profile" width="24px">
-                  <div class="comment-user">
-                    <h6>Aldo Bramantio
-                      <span class="d-inline-block" style="margin-left: 55px;">
-                        <div class="dropdown">
-                          <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                          </a>
-                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <li><a class="dropdown-item disabled" href="#">Delete</a></li>
-                            <li><a class="dropdown-item" href="#">Report</a></li>
-                          </ul>
-                        </div>
-                      </span>
-                    </h6>
-                    <span>15:30 | June 30</span>
-                  </div>
-                  <p>Dek, abang pulang</p>
-                  <div class="action-button d-flex">
-                    <a class="ml-auto" id="reply-btn" href="#">reply</a>
-                  </div>
-                </div>
-                <div class="comment-item">
-                  <img class="img-fluid mr-2 mb-2" src="{{ asset('frontend') }}/img/profile-1.jpeg" alt="profile" width="24px">
-                  <div class="comment-user">
-                    <h6>Aldo Bramantio
-                      <span class="d-inline-block" style="margin-left: 55px;">
-                        <div class="dropdown">
-                          <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                          </a>
-                          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <li><a class="dropdown-item disabled" href="#">Delete</a></li>
-                            <li><a class="dropdown-item" href="#">Report</a></li>
-                          </ul>
-                        </div>
-                      </span>
-                    </h6>
-                    <span>15:30 | June 30</span>
-                  </div>
-                  <p>Dek, abang pulang</p>
-                  <div class="action-button d-flex">
-                    <a class="ml-auto" id="reply-btn" href="#">reply</a>
-                  </div>
-                </div> -->
+                                          <img class="img-fluid mr-2 mb-2" src="{{ asset('frontend') }}/img/profile-1.jpeg" alt="profile" width="24px">
+                                          <div class="comment-user">
+                                            <h6>Aldo Bramantio
+                                              <span class="d-inline-block" style="margin-left: 55px;">
+                                                <div class="dropdown">
+                                                  <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                                  </a>
+                                                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                    <li><a class="dropdown-item disabled" href="#">Delete</a></li>
+                                                    <li><a class="dropdown-item" href="#">Report</a></li>
+                                                  </ul>
+                                                </div>
+                                              </span>
+                                            </h6>
+                                            <span>15:30 | June 30</span>
+                                          </div>
+                                          <p>Dek, abang pulang</p>
+                                          <div class="action-button d-flex">
+                                            <a class="ml-auto" id="reply-btn" href="#">reply</a>
+                                          </div>
+                                        </div>
+                                        <div class="comment-item">
+                                          <img class="img-fluid mr-2 mb-2" src="{{ asset('frontend') }}/img/profile-1.jpeg" alt="profile" width="24px">
+                                          <div class="comment-user">
+                                            <h6>Aldo Bramantio
+                                              <span class="d-inline-block" style="margin-left: 55px;">
+                                                <div class="dropdown">
+                                                  <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                                  </a>
+                                                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                    <li><a class="dropdown-item disabled" href="#">Delete</a></li>
+                                                    <li><a class="dropdown-item" href="#">Report</a></li>
+                                                  </ul>
+                                                </div>
+                                              </span>
+                                            </h6>
+                                            <span>15:30 | June 30</span>
+                                          </div>
+                                          <p>Dek, abang pulang</p>
+                                          <div class="action-button d-flex">
+                                            <a class="ml-auto" id="reply-btn" href="#">reply</a>
+                                          </div>
+                                        </div>
+                                        <div class="comment-item">
+                                          <img class="img-fluid mr-2 mb-2" src="{{ asset('frontend') }}/img/profile-1.jpeg" alt="profile" width="24px">
+                                          <div class="comment-user">
+                                            <h6>Aldo Bramantio
+                                              <span class="d-inline-block" style="margin-left: 55px;">
+                                                <div class="dropdown">
+                                                  <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                                  </a>
+                                                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                    <li><a class="dropdown-item disabled" href="#">Delete</a></li>
+                                                    <li><a class="dropdown-item" href="#">Report</a></li>
+                                                  </ul>
+                                                </div>
+                                              </span>
+                                            </h6>
+                                            <span>15:30 | June 30</span>
+                                          </div>
+                                          <p>Dek, abang pulang</p>
+                                          <div class="action-button d-flex">
+                                            <a class="ml-auto" id="reply-btn" href="#">reply</a>
+                                          </div>
+                                        </div> -->
                 </div>
                 <div class="form-floating reply-form-section d-none d-lg-block m-0 ml-0 mr-2" id="reply-form">
                     <textarea class="form-control reply" placeholder="Add a reply" id="floatingTextarea"></textarea>
@@ -268,37 +268,37 @@
                             <thead>
                                 <tr>
                                     <th>No</th>
-                                    <th>Nama Pegawai</th>
+                                    <th>Nama Program</th>
+                                    <th>Nama Proyek</th>
                                     <th>Tanggal</th>
-                                    <th>Nama Pekerjaan</th>
-                                    <th>Uraian Kegiatan</th>
-                                    <th>Durasi</th>
                                     <th>Progress</th>
-                                    <th>Catatan</th>
                                     <th>Kendala</th>
                                     <th>Action</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <td class="align-middle">1</td>
-                                    <td class="align-middle">Azzahra Ramadiana</td>
-                                    <td class="align-middle">2021-11-17</td>
-                                    <td class="align-middle">Instalasi Jaringan</td>
-                                    <td class="align-middle">Memasang Kabel LAN</td>
-                                    <td class="align-middle">17 Hari</td>
-                                    <td class="align-middle">
-                                        <div class="progress">
-                                            <div class="progress-done" data-done="34" time-left="10">
-                                                34%
+                                <?php $no = 1; ?>
+                                @foreach ($monitorings as $monitoring)
+                                    <tr>
+                                        <td class="align-middle">{{ $no }}</td>
+                                        <td class="align-middle">{{ $monitoring->proyek->program->nama_program }}</td>
+                                        <td class="align-middle">{{ $monitoring->proyek->nama_proyek }}</td>
+                                        <td class="align-middle">{{ $monitoring->tanggal }}</td>
+                                        <td class="align-middle">
+                                            <div class="progress">
+                                                <div class="progress-done progress-done-{{ $no++ }}"
+                                                    data-done="{{ $monitoring->progres }}" time-left="10">
+                                                    {{ $monitoring->progres }}%
+                                                </div>
                                             </div>
-                                        </div>
-                                    </td>
-                                    <td class="align-middle">Kabel LAN belum terpasang</td>
-                                    <td class="align-middle">Kabel LAN kurang</td>
-                                    <td><button type="button" class="btn btn-blue text-white" id="menu-btn">Review</button>
-                                    </td>
-                                </tr>
+                                        </td>
+                                        <td class="align-middle">{{ $monitoring->kendala }}</td>
+                                        <td><button type="button" class="btn btn-blue text-white"
+                                                id="menu-btn">Review</button>
+                                        </td>
+                                    </tr>
+                                @endforeach
+
                             </tbody>
                         </table>
                     </div>
@@ -308,4 +308,24 @@
 
         <!-- End of Main Content -->
     </section>
+
 @endsection
+
+@push('js')
+
+    <?php $no = 1; ?>
+    @foreach ($monitorings as $monitoring)
+        <script>
+            var progress_{{ $no }} = document.querySelector('.progress-done-{{ $no }}');
+            // progress.style.width = progress.getAttribute('data-done') + '%';
+            // progress.style.opacity = 1;
+
+            setTimeout(() => {
+                progress_{{ $no }}.style.opacity = 1;
+                progress_{{ $no }}.style.width = progress_{{ $no }}.getAttribute('data-done') +
+                    '%';
+            }, 10)
+        </script>
+        <?php $no++; ?>
+    @endforeach
+@endpush

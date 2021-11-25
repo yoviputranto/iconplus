@@ -156,11 +156,12 @@
                     <div class="form-row">
                         <div class="col-4 col-sm-8 col-lg-8 p-5 p-lg-0">
                             <form method="POST" action="{{ route('login') }}">
+                                @csrf
                                 <h1>Please Log In</h1>
-                                <input type="text" name="nip"
-                                    class="form-control @error('nip') is-invalid @enderror mt-5"
-                                    value="{{ old('nip') }}" placeholder="NIP" required autocomplete="nip" autofocus>
-                                @error('nip')
+                                <input type="text" name="NIP"
+                                    class="form-control @error('NIP') is-invalid @enderror mt-5"
+                                    value="{{ old('NIP') }}" placeholder="NIP" required autocomplete="NIP" autofocus>
+                                @error('NIP')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>
